@@ -25,5 +25,9 @@ npm run test
 npm run lint
 ```
 
+### Deploy on stage
+```
+npm run stage
+```
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
