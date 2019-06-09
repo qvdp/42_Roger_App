@@ -1,13 +1,28 @@
 <template>
-  <HelloWorld />
+  <div>
+    <movie-form @searched="getResults"/>
+    <list :results="list" v-if="list"/>
+  </div>
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
+  import movieForm from '../components/Form'
+  import list from '../components/List'
 
   export default {
     components: {
-      HelloWorld
+      movieForm,
+      list
+    },
+    data () {
+      return {
+        list: null
+      }
+    },
+    methods: {
+      getResults (data) {
+        this.list = data
+      }
     }
   }
 </script>
