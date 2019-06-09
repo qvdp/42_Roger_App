@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 
 // Movie section
-import getMovieInformations from './movie/getMovieInformations'
+import getMovieInformations from './movie/researchMovies'
 
 Vue.use(Vuex)
 
