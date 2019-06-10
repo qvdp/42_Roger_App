@@ -5,7 +5,7 @@
     <v-toolbar app>
       <v-toolbar-title class="headline">
         <span>IMDb</span>
-        <span class="font-weight-light warning--text">|search</span>
+        <span class="font-weight-light warning--text">|search_engin</span>
       </v-toolbar-title>
     </v-toolbar>
 
