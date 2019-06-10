@@ -4,7 +4,7 @@
     <!-- Navigation -->
     <v-toolbar app>
       <v-toolbar-title class="headline">
-        <span>IMDb</span>
+        <span>IMDsdfdsb</span>
         <span class="font-weight-light info--text">|search_engine</span>
       </v-toolbar-title>
     </v-toolbar>
