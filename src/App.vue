@@ -5,7 +5,7 @@
     <v-toolbar app>
       <v-toolbar-title class="headline">
         <span>IMDb</span>
-        <span class="font-weight-light info--text"> | research</span>
+        <span class="font-weight-light warning--text"> | research</span>
       </v-toolbar-title>
     </v-toolbar>
 
@@ -13,7 +13,7 @@
     <v-content>
       <router-view />
     </v-content>
-    
+
   </v-app>
 </template>
 
