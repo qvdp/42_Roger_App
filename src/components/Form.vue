@@ -19,7 +19,7 @@
           ></v-select>
         </v-flex>
         <v-flex xs12 md1 :ml-5="$vuetify.breakpoint.name !== 'xs' && $vuetify.breakpoint.name !== 'sm'">
-          <v-btn large class="warning text-none" :loading="isLoading" type="submit" block>
+          <v-btn large class="primary text-none" :loading="isLoading" type="submit" block>
             Research
           </v-btn>
         </v-flex>
@@ -42,7 +42,7 @@
                       <a><span class="headline white--text" v-text="movie.Title" @click="openLink(movie.imdbID)"></span></a>
                       <small class="white--text" v-text="movie.Year"></small>
                       <small class="grey--text" v-text="movie.imdbID"></small>
-                      <v-btn large flat color="warning" class="text-none mt-2" @click="openLink(movie.imdbID)">
+                      <v-btn large flat color="primary" class="text-none mt-2" @click="openLink(movie.imdbID)">
                         Details
                       </v-btn>
                   </v-layout>
